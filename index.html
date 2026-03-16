@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breitling Edition | السعودية</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: 'Times New Roman', serif;
+            overflow-x: hidden;
+        }
+        
+        /* القسم العلوي - الهيدر */
+        header {
+            text-align: center;
+            padding: 30px;
+            letter-spacing: 4px;
+            border-bottom: 1px solid #222;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+
+        /* حاوية المنتج الرئيسي */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 60px 20px;
+            background: radial-gradient(circle at top, #111 0%, #000 70%);
+        }
+
+        .watch-preview {
+            max-width: 350px;
+            filter: drop-shadow(0 0 30px rgba(255,255,255,0.1));
+            transition: 0.5s;
+        }
+
+        /* تأثير الزجاج (Glassmorphism) كما في الصورة */
+        .details-box {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(255,255,255,0.1);
+            padding: 40px;
+            margin-top: -40px;
+            max-width: 450px;
+            text-align: center;
+        }
+
+        h1 {
+            font-weight: 300;
+            letter-spacing: 2px;
+            margin: 0 0 15px 0;
+            color: #d4af37; /* لون ذهبي خفيف */
+        }
+
+        p {
+            line-height: 1.8;
+            color: #aaa;
+            font-size: 15px;
+        }
+
+        .cta {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 15px 45px;
+            border: 1px solid #fff;
+            color: #fff;
+            text-decoration: none;
+            letter-spacing: 2px;
+            font-size: 12px;
+            transition: 0.3s;
+        }
+
+        .cta:hover {
+            background: #fff;
+            color: #000;
+        }
+
+        /* استجابة الموبايل */
+        @media (max-width: 600px) {
+            .watch-preview { max-width: 250px; }
+            .details-box { margin: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>Breitling for Bentley</header>
+
+<div class="hero">
+    <img src="https://www.breitling.com/media/image/2/gallery_square_600/asset-version-8a47466531/ab0118221g1p1-premier-b01-chronograph-42-front.png" class="watch-preview" alt="Luxury Watch">
+    
+    <div class="details-box">
+        <h1>BENTLEY GMT LIGHT</h1>
+        <p>الرفيق المثالي للرجل الذي يقدر الوقت. دقة سويسرية متناهية مع هيكل من التيتانيوم وتصميم مستوحى من عالم السيارات الفاخرة.</p>
+        <div style="font-size: 24px; margin: 20px 0;">2,850 ريال</div>
+        <a href="رابط_أمازون_السعودية_هنا" class="cta">شراء الآن من أمازون</a>
+    </div>
+</div>
+
+</body>
+</html>
